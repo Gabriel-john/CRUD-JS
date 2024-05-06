@@ -1,0 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI';
+}
+
+body {
+   background-color: #000000;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23000000' stroke-width='0.9' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cuse fill='%23242424' href='%23s' y='2'/%3E%3Cuse fill='%23242424' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23333333' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23333333' href='%23s'/%3E%3Cuse fill='%233e3e3e' href='%23s' x='2'/%3E%3Cuse fill='%233e3e3e' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23484848'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23484848'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23515151'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23000000'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23585858'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23FFFFFF'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23FFFFFF'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='rotate(32 1000 750) scale(9.6) translate(-895.83 -671.88)'%3E%3Cg fill='%23FFFFFF'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.flexcenter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header {
+   background-color: rgba(255, 255, 255, 0.74);
+}
+
+.menu {
+   width: 100%;
+   min-height: 150px;
+   flex-direction: column;
+   margin: 20px 0px;
+   gap: 15px;
+}
+
+input[type='text'] {
+   width: 90%;
+   height: 55px;
+   border-radius: 50px;
+   padding: 15px;
+   border: 2px solid black;
+}
+
+.btnMenu {
+   flex-direction: row;
+   gap: 15px;
+}
+
+.btn {
+   width: 150px;
+   height: 50px;
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(0, 0, 0);
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 6px;
+   transition: 450ms;
+   cursor: pointer;
+}
+
+.btn:hover {
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   border: 2px solid rgb(53, 53, 53);
+   transition: 450ms;
+}
+
+main {
+   width: 100%;
+}
+
+ul {
+   flex-direction: column;
+   width: 95%;
+   min-height: 300px;
+   background-color: rgba(10, 10, 10, 0.596);
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+   padding: 15px;
+   gap: 25px;
+}
+
+li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   min-height: 100px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 5px 15px;
+   gap: 10px;
+}
+
+.divButton {
+   flex-direction: column;
+   gap: 5px;
+}
+
+.btnTask {
+   width: 80px;
+   height: 40px;
+   cursor: pointer;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.btnDelete {
+   background-color: rgb(255, 59, 59);
+}
+
+.btnEdit {
+   background-color: rgb(38, 112, 250);
+}
+
+@media (max-width: 340px) {
+   .btnMenu {
+      flex-direction: column;
+      gap: 5px;
+   }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./assets/style.css" />
+      <title>CRUD-JS</title>
+   </head>
+   <body>
+      <header class="flexcenter">
+         <h1>CRUD-JS</h1>
+      </header>
+
+      <section class="menu flexcenter">
+         <input
+            type="text"
+            id="taskInput"
+            placeholder="Nova Tarefa"
+            maxlength="150"
+         />
+         <div class="btnMenu flexcenter">
+            <button id="btnAdd" class="btn">Add Task</button>
+            <button id="btnReset" class="btn">Reset</button>
+         </div>
+      </section>
+
+      <main class="flexcenter">
+         <ul id="taskList" class="flexcenter"></ul>
+      </main>
+
+      <script src="./js/script.js"></script>
+   </body>
+</html>
